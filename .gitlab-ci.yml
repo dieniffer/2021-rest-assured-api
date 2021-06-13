@@ -5,9 +5,9 @@ stages:
 Contrato:
   stage: contrato
   script:
-    - mvn clean test -Dtest=contrato/*Test
+    - mvn clean test contrato/*Test
 
 Funcional:
   stage: funcional
   script:
-    - mvn clean test -Dtest=funcional/*Test
+    - mvn clean test funcional/*Test
