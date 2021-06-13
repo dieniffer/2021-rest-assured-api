@@ -1,0 +1,141 @@
+{
+  "$ schema" : "http://json-schema.org/draft-04/schema#" ,
+  "type" : "array" ,
+  "items" : [
+    {
+      "tipo" : "objeto" ,
+      "propriedades" : {
+        "postId" : {
+          "tipo" : "inteiro"
+        },
+        "id" : {
+          "tipo" : "inteiro"
+        },
+        "nome" : {
+          "tipo" : "string"
+        },
+        "email" : {
+          "type" : "string"
+        },
+        "body" : {
+          "type" : "string"
+        }
+      },
+      "obrigatório" : [
+        "postId" ,
+        "id" ,
+        "nome" ,
+        "email" ,
+        "corpo"
+      ]
+    },
+    {
+      "tipo" : "objeto" ,
+      "propriedades" : {
+        "postId" : {
+          "tipo" : "inteiro"
+        },
+        "id" : {
+          "tipo" : "inteiro"
+        },
+        "nome" : {
+          "tipo" : "string"
+        },
+        "email" : {
+          "type" : "string"
+        },
+        "body" : {
+          "type" : "string"
+        }
+      },
+      "obrigatório" : [
+        "postId" ,
+        "id" ,
+        "nome" ,
+        "email" ,
+        "corpo"
+      ]
+    },
+    {
+      "tipo" : "objeto" ,
+      "propriedades" : {
+        "postId" : {
+          "tipo" : "inteiro"
+        },
+        "id" : {
+          "tipo" : "inteiro"
+        },
+        "nome" : {
+          "tipo" : "string"
+        },
+        "email" : {
+          "type" : "string"
+        },
+        "body" : {
+          "type" : "string"
+        }
+      },
+      "obrigatório" : [
+        "postId" ,
+        "id" ,
+        "nome" ,
+        "email" ,
+        "corpo"
+      ]
+    },
+    {
+      "tipo" : "objeto" ,
+      "propriedades" : {
+        "postId" : {
+          "tipo" : "inteiro"
+        },
+        "id" : {
+          "tipo" : "inteiro"
+        },
+        "nome" : {
+          "tipo" : "string"
+        },
+        "email" : {
+          "type" : "string"
+        },
+        "body" : {
+          "type" : "string"
+        }
+      },
+      "obrigatório" : [
+        "postId" ,
+        "id" ,
+        "nome" ,
+        "email" ,
+        "corpo"
+      ]
+    },
+    {
+      "tipo" : "objeto" ,
+      "propriedades" : {
+        "postId" : {
+          "tipo" : "inteiro"
+        },
+        "id" : {
+          "tipo" : "inteiro"
+        },
+        "nome" : {
+          "tipo" : "string"
+        },
+        "email" : {
+          "type" : "string"
+        },
+        "body" : {
+          "type" : "string"
+        }
+      },
+      "obrigatório" : [
+        "postId" ,
+        "id" ,
+        "nome" ,
+        "email" ,
+        "corpo"
+      ]
+    }
+  ]
+}

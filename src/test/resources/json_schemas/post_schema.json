@@ -1,0 +1,24 @@
+{
+  "$ schema" : "http://json-schema.org/draft-04/schema#" ,
+  "type" : "object" ,
+  "properties" : {
+    "userId" : {
+      "type" : "integer"
+    },
+    "id" : {
+      "tipo" : "inteiro"
+    },
+    "título" : {
+      "tipo" : "string"
+    },
+    "body" : {
+      "type" : "string"
+    }
+  },
+  "obrigatório" : [
+    "userId" ,
+    "id" ,
+    "título" ,
+    "corpo"
+  ]
+}
