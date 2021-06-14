@@ -1,0 +1,13 @@
+stages:
+  - contrato
+  - funcional
+
+Contrato:
+  stage: contrato
+  script:
+    - mvn clean test contrato/*Test
+
+Funcional:
+  stage: funcional
+  script:
+    - mvn clean test funcional/*Test
