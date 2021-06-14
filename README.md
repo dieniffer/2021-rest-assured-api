@@ -1,6 +1,6 @@
 
 ## Backlog
-* [Itens Passiveis de Melhorias]: corrigir a pipeline, melorar o Page Objects
+* [Itens Passiveis de Melhorias]: corrigir a pipeline, melhorar o Page Objects
 
 
 ## Descrição
@@ -28,16 +28,13 @@ Diretório C: para baixar os arquivos do projeto
 ## Como Rodar
 
 ### Localmente
-- Abrir o Intellij, ir em **File -> Open projeto.**
+- Abrir o Intellij, ir em Maven | Lifecycle | test 
 
 ## Padrões
-- Para cada página terá um PageObjects com seus respectivos métodos criados.
 - Nomes das classes e métodos escritos em português.
 
 # Classes
-1. Nome das classes Deve seguir o padrão [CamelCase](https://google.github.io/styleguide/javaguide.html#s5.2.2-class-names).
-2. As classes do pacote PageObject, **devem** conter ao final do seu nome a palavra **Page**.
-   [PageObjects](https://github.com/SeleniumHQ/selenium/wiki/PageObjects)
+1. Nome das classes segue o padrão [CamelCase](https://google.github.io/styleguide/javaguide.html#s5.2.2-class-names).
 
 - Exemplo: **HomePage.java**
 

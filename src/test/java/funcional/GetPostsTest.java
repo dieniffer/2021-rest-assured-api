@@ -20,4 +20,5 @@ public class GetPostsTest extends BaseTest {
                 body("id",is(1));
     }
 
+
 }
