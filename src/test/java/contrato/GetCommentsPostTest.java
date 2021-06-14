@@ -12,7 +12,7 @@ import java.lang.String;
 public class GetCommentsPostTest extends BaseTest {
 
     @Test
-    public void buscarComentarioDoPostPorId(){
+    public void contratoBuscarComentarioDoPostPorId(){
         String id = "1";
 
         given()

@@ -1,11 +1,15 @@
 package api.body;
 
-import lombok.Getter;
+import lombok.*;
 import java.lang.String;
 
-@Getter
+@Data
+@Builder
+@AllArgsConstructor
+@RequiredArgsConstructor
 public class Post {
     private String userId;
     private String title;
     private String body;
+    private int id;
 }

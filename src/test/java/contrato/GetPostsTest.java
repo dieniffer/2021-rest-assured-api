@@ -10,7 +10,7 @@ import java.lang.String;
 public class GetPostsTest extends BaseTest {
 
     @Test
-    public void buscarPostPorId(){
+    public void contratoBuscarPostPorId(){
         String id = "1";
 
         given()
@@ -18,7 +18,7 @@ public class GetPostsTest extends BaseTest {
                 .when().get("/{id}").
                 then().
                 body(matchesJsonSchema(
-                        new File("src/test/resources/json_schemas/post_schema.json")));
+                        new File("src/test/resources/json_schemas/posts_schema.json")));
     }
 
 }
